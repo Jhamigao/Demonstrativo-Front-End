@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    align: center;
+  
+}
+
+anjabfhabfhan{
+  color: #363636
+}
+.card{
+  background-color: gray;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+main.cards {
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: gray;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    max-height: 468px;
+    margin-left: 32px;
+    color:#bc0008;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 18rem;
+    height: auto;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+    color: black;
+    font-weight: bold
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 16px 0;
+    
+}
+
+main.cards section.card.contact  {
+    background: linear-gradient(to right,  #e00005, #e30224);
+}
+main.cards section.card.shop button {
+    background: linear-gradient(to right,  #e00005, #e30224);
+}
+main.cards section.card.about button {
+    background: linear-gradient(to right, #e00005, #e30224);
+  
+}
+
+main.cards section.card.contact {
+    box-shadow: 20px 20px 50px -20px #929292;
+}
+main.cards section.card.shop {
+    box-shadow: 20px 20px 50px -20px #444444;
+}
+main.cards section.card.about {
+    box-shadow: 20px 20px 50px -20px #7a7a7a;
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+
+}

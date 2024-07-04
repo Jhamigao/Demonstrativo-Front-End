@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jogos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="bootstrap.js"></script>
+  <link rel="icon" type="image/png" href="Imagens/icone.png" />
+</head>
+
+<body style="background-color:#232323 ;">
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #000000;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Imagens/logo.png" alt="" width="100" height="50" class="d-inline-block align-text-top">
+          Jogos do Zé
+        </a>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Pagina inicial</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Jogos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pré-venda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Promoções
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Promoção de Natal</a></li>
+                  <li><a class="dropdown-item" href="#">Black friday</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Descontos semanais</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <br>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active box" style="background-image: url(gow.jpg);">
+        <center><img src="Imagens/gow.jpg" width="500px" height="500px" alt="Primeiro"></center>
+      </div>
+      
+      <div class="carousel-item box">
+        <center><img src="Imagens/acv.jpg" width="500px" height="500px" alt="..."></center>
+      </div>
+      
+      <div class="carousel-item box">
+        <center><img src="Imagens/psv.jpg" width="500px" height="500px" alt="..."></center>
+      </div>
+      
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    
+  </div>
+
+  <main class="cards">
+    <section class="card shop">
+      <div class="icon">
+        <img src="Imagens/psv.jpg" alt="Shop here.">
+      </div>
+      <h3>Pokémon Scarlet e Violet</h3>
+      <span>Captura pokémon, batalha e vire o mestre pokémon</span>
+      <button>Compre Agora!!</button>
+    </section>
+  
+    <section class="card shop">
+      <div class="icon">
+        <img src="Imagens/acv.jpg" alt="Shop here.">
+      </div>
+      <h3>Assassin's creed Vanhalla</h3>
+      <span>Jogue como um assassino na epóca viking</span>
+      <button>Compre Agora!!</button>
+    </section>
+
+    <section class="card shop">
+      <div class="icon">
+        <img src="Imagens/gow.jpg" alt="Shop here.">
+      </div>
+      <h3>God of war Ragnarok</h3>
+      <span>Veja a história de Kratos e seu filho Atreus na mitologia nórdica</span>
+      <button>Compre Agora!!</button>
+    </section>
+    
+  </main>
+
+
+  <br>
+  
+ 
+
+
+
+
+</body>
+
+</html>
